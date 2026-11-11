@@ -1,0 +1,15 @@
+---
+title: "Natural Language Processing Pipeline"
+description: "A comprehensive NLP project for text classification and sentiment analysis using deep learning techniques."
+categories: [machine-learning, nlp]
+image: "project.svg"
+---
+
+- **Natural Language Processing Pipeline**
+  - Built end-to-end NLP pipeline for text classification using **BERT**, **RoBERTa**, and **DistilBERT** models.
+  - Preprocessed and cleaned 100K+ text documents using **spaCy** and **NLTK** for tokenization and entity recognition.
+  - Implemented attention mechanisms and transfer learning to achieve 88% accuracy on multi-class classification tasks.
+  - Deployed the model as a REST API using **FastAPI**, handling 1000+ requests per second in production.
+
+
+

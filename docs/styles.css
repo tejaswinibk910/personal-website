@@ -1,0 +1,227 @@
+/* 
+=============================================================================
+Custom Styles for Quarto Website Template
+=============================================================================
+This CSS file provides custom styling for your Quarto website.
+
+COLOR SCHEME:
+- Primary Blue: #0033A0 (used for text, headings, sidebar background)
+- Accent Yellow: #FED85D (Dandelion - used for navbar, footer, highlights)
+
+HOW TO CUSTOMIZE COLORS:
+Use Find & Replace to change these hex codes throughout the file:
+- Replace #0033A0 with your preferred primary color
+- Replace #FED85D with your preferred accent color
+- Colorpicker - https://colorpicker.dev/
+
+STRUCTURE:
+This file is organized into sections:
+1. Base Styles (body, typography)
+2. Navigation Bar
+3. Links & Buttons
+4. Footer
+5. Code Blocks
+6. Sidebar Navigation
+7. Content Width Adjustment
+============================================================================= 
+*/
+
+/*
+-----------------------------------------------------------------------------
+BASE STYLES
+-----------------------------------------------------------------------------
+Foundation styles applied to the entire page
+*/
+
+/* Reset box-sizing for better responsive behavior */
+* {
+  box-sizing: border-box;    /* Include padding and border in element's total width/height */
+}
+
+html {
+  height: 100%;              /* Full viewport height */
+  width: 100%;               /* Full viewport width */
+}
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;     /* Main font - change to your preferred typeface */
+  background-color: #ffffff;                   /* Page background color */
+  color: #000000;                              /* Primary text color (blue), excluding the headings */
+  line-height: 1.6;                              /* Spacing between lines for readability */
+  padding: 20px;                                 /* Outer padding for page content */
+}
+
+/* 
+-----------------------------------------------------------------------------
+TYPOGRAPHY - HEADERS
+-----------------------------------------------------------------------------
+Consistent styling for all heading levels (h1 through h6) 
+*/
+
+header, h1, h2, h3, h4, h5, h6 {
+  color: #0033A0;  /* All headings use the primary blue color */
+}
+
+/* 
+-----------------------------------------------------------------------------
+NAVIGATION BAR
+-----------------------------------------------------------------------------
+Top navigation bar styling with yellow background 
+*/
+
+.navbar, nav {
+  background-color: #FED85D;  /* Dandelion yellow background */
+  color: #0033A0;             /* Blue text on yellow background */
+  padding: 1rem;                /* Internal spacing */
+}
+
+/* Navigation links - default state */
+.navbar a, nav a {
+  color: #0033A0;             /* Blue link color */
+  text-decoration: none;        /* Remove underline by default */
+  font-weight: bold;            /* Make nav links stand out */
+}
+
+/* Navigation link hover effect */
+.navbar a:hover, nav a:hover {
+  text-decoration: underline;  /* Add underline on hover for visual feedback */
+}
+
+/*
+-----------------------------------------------------------------------------
+GENERAL LINKS
+-----------------------------------------------------------------------------
+Styling for all links throughout the site
+*/
+
+a {
+  color: #0033A0;  /* Links are blue by default */
+}
+
+/* Link hover effect */
+a:hover {
+  color: #0033A0;              /* Text stays blue */
+  padding: 2px 4px;              /* Small padding creates button-like appearance */
+  border-radius: 4px;            /* Rounded corners */
+}
+
+/*
+-----------------------------------------------------------------------------
+BUTTONS
+-----------------------------------------------------------------------------
+Styling for button elements and button classes
+*/
+
+button, .btn {
+  background-color: #0033A0;   /* Blue background */
+  color: #FED85D;              /* Yellow text */
+  border: none;                  /* Remove default border */
+  padding: 0.5rem 1rem;          /* Internal spacing */
+  border-radius: 4px;            /* Rounded corners */
+  cursor: pointer;               /* Show pointer cursor on hover */
+}
+
+/* Button hover effect - slightly darker blue */
+button:hover, .btn:hover {
+  background-color: #FED85D;   /* Dandelion on hover) */
+}
+
+/* 
+-----------------------------------------------------------------------------
+FOOTER
+-----------------------------------------------------------------------------
+Page footer at the bottom of each page 
+*/
+
+footer {
+  background-color: #FED85D;   /* Yellow background matches navbar */
+  color: #0033A0;              /* Blue text */
+  padding: 1rem;               /* Internal spacing */
+  text-align: center;          /* Center-align footer content */
+  margin-top: 2rem;            /* Space above footer */
+}
+
+/* 
+-----------------------------------------------------------------------------
+CODE BLOCKS
+-----------------------------------------------------------------------------
+Styling for inline code and code blocks 
+*/
+
+pre, code {
+  background-color: #f4f4f4;   /* Light gray background for code */
+  color: #0033A0;              /* Blue text maintains brand consistency */
+  padding: 4px 6px;            /* Internal spacing */
+  border-radius: 4px;          /* Rounded corners */
+}
+
+/* 
+-----------------------------------------------------------------------------
+SIDEBAR NAVIGATION
+-----------------------------------------------------------------------------
+Left sidebar styling (docked navigation panel)
+
+IMPORTANT: Uses !important to override Quarto's default styles.
+If you modify these, keep the !important flags for them to take effect.
+*/
+
+/* Sidebar container - overall background and text color */
+.sidebar, .sidebar-navigation, .quarto-sidebar {
+  background-color: #0033A0 !important;  /* Blue background for sidebar */
+  color: #FED85D !important;             /* Yellow text */
+}
+
+/* Sidebar section headings (e.g., 'Home', category titles) */
+.sidebar .menu-text, .sidebar-title {
+  color: #FED85D !important;  /* Yellow headings on blue background */
+  font-weight: bold;          /* Bold for emphasis */
+}
+
+/* Sidebar navigation links - default state */
+.sidebar a, .sidebar-navigation a {
+  color: #FED85D !important;   /* Yellow link text */
+  font-weight: 500;              /* Medium weight for readability */
+  border: none;                  /* Remove borders */
+  padding: 0.4rem 0.8rem;        /* Internal spacing */
+  display: block;                /* Full-width clickable area */
+}
+
+/* Sidebar link hover effect - HOME*/
+.sidebar a:hover, .sidebar-navigation a:hover {
+  background-color: #0033A0 !important;  /* Keeps blue background */
+  color: #FED85D !important;             /* Text becomes same as dandelion yellow */
+  border-radius: 6px;                      /* Rounded corners on hover */
+  transition: all 0.3s ease;               /* Smooth transition animation */
+}
+
+/* Active/current page indicator in sidebar */
+.sidebar-item.active, .sidebar-item a[aria-current="page"] {
+  background-color: #FED85D !important;  /* Yellow background highlights active item */
+  color: #0033A0 !important;             /* Blue text for contrast */
+  font-weight: 600;                        /* Bolder font weight */
+  border-radius: 6px;                      /* Rounded corners */
+}
+
+/*
+-----------------------------------------------------------------------------
+CONTENT WIDTH ADJUSTMENT
+-----------------------------------------------------------------------------
+Increases content width to better match the footer width
+*/
+
+/* Make content extend full width to match footer */
+#quarto-content {
+  width: 100%;
+  max-width: none;
+}
+
+/* Center the content if it's narrower than viewport */
+.quarto-container {
+  width: 100%;
+  max-width: none;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 1rem;   /* Add padding for breathing room */
+  padding-right: 1rem;
+}
+

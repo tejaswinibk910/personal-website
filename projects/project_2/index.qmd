@@ -1,0 +1,15 @@
+---
+title: "Customer Segmentation Analysis"
+description: "A data-driven approach to identify customer segments and personalize marketing strategies using clustering and classification techniques."
+categories: [analysis, visualization]
+image: "project.svg"
+---
+
+- **Customer Segmentation Analysis**
+  - Analyzed 500K+ customer records to identify distinct segments using **K-means**, **DBSCAN**, and **hierarchical clustering**.
+  - Developed interactive dashboards using **Plotly** and **Tableau** to visualize customer behavior patterns.
+  - Implemented RFM (Recency, Frequency, Monetary) analysis to score and rank customers for targeted campaigns.
+  - Increased marketing ROI by 40% through personalized messaging based on segment characteristics.
+
+
+

@@ -1,0 +1,11 @@
+---
+title: "Job Title, Company"
+description: "Mon YYYY – Present · Location. One-line summary of the role."
+categories: [work]
+image: "company.svg"
+---
+
+- **Job Title**, *Company*
+  - Bullet one
+  - Bullet two
+  - Bullet three

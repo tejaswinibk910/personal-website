@@ -1,0 +1,18 @@
+---
+title: "Work Experience"
+description: |
+  This page details my work experience.
+listing:
+  - id: workex
+    max-description-length: 500
+    image-height: 150px
+    fields: [image, title, description]
+    contents:
+      - job_1
+      - job_2
+    type: grid
+    grid-item-border: false
+---
+
+::: {#workex}
+:::

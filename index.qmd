@@ -1,0 +1,41 @@
+---
+title: "John Doe"
+image: profile.svg
+about:
+  id: hero-heading
+  template: trestles
+  image-shape: rectangle
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/johndoe/
+    - icon: github
+      text: Github
+      href: https://github.com/johndoe
+    - icon: envelope
+      text: Email
+      href: johndoe@email.com
+    - text: 🆔 ORCID
+      href: https://orcid.org/0000-0000-0000-0000
+---
+
+::: {#hero-heading}
+Hello, I am *John*.
+
+A passionate data scientist and researcher with expertise in machine learning, data analysis, and software development. I combine technical skills with domain knowledge to solve complex problems and deliver impactful solutions. My work spans across various domains including statistical modeling, deep learning, and data visualization.
+
+## Work Experience
+
+-   **Data Scientist**, *Tech Company Inc* — *Location* (Jan 2021 – Present)
+    -   Developed machine learning models to improve business outcomes, increasing revenue by 25%.
+    -   Built automated data pipelines using Python and SQL to process and analyze large-scale datasets.
+    -   Collaborated with cross-functional teams to deliver data-driven insights and recommendations.
+    -   Implemented A/B testing frameworks to evaluate product features and optimize user experience.
+    -   Led the deployment of predictive models in production environments using cloud infrastructure.
+-   **Research Assistant**, *University Research Lab* — *Location* (Sep 2019 – Dec 2020)
+    -   Conducted research in machine learning and statistical methods, resulting in 2 published papers.
+    -   Developed novel algorithms for data analysis and visualization.
+    -   Collaborated with faculty and students on interdisciplinary research projects.
+    -   Presented findings at academic conferences and seminars.
+    -   Mentored undergraduate students in research methodologies and programming.
+:::

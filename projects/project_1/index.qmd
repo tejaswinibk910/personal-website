@@ -1,0 +1,12 @@
+---
+title: "Time Series Forecasting Analysis"
+description: "A comprehensive analysis using machine learning models to forecast sales trends and predict future demand patterns."
+categories: [analysis, machine-learning]
+image: "project.svg"
+---
+
+- **Time Series Forecasting Analysis**
+  - Developed predictive models using **ARIMA**, **LSTM**, and **Prophet** to forecast time series data with 95% accuracy.
+  - Processed and cleaned large-scale datasets containing millions of records using **pandas** and **NumPy**.
+  - Implemented feature engineering techniques to capture seasonal patterns and trends in the data.
+  - Deployed models in production environment, reducing forecasting error by 30% compared to baseline methods.

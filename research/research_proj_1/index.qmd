@@ -1,0 +1,19 @@
+---
+title: "Deep Learning for Medical Image Analysis"
+description: "Research project focused on developing convolutional neural networks for automated disease detection in medical imaging."
+categories: [research, deep-learning]
+image: "research.svg"
+page-layout: full
+---
+
+[🔗 View Publication](https://github.com/hegde-nishant/f1-lap-optimizer/blob/main/ProjectReport.pdf)
+
+------------------------------------------------------------------------
+
+### Project Summary
+
+-   **Deep Learning for Medical Image Analysis**
+    -   Developed deep learning models for automated detection and classification of diseases in medical images using CNNs and transfer learning.
+    -   Implemented data augmentation techniques and preprocessing pipelines to handle imbalanced medical image datasets.
+    -   Achieved 94% accuracy on disease classification tasks using ensemble methods combining ResNet, VGG, and Inception architectures.
+    -   Collaborated with medical professionals to validate model predictions and ensure clinical relevance of the findings.

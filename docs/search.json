@@ -1,0 +1,88 @@
+[
+  {
+    "objectID": "workex/job_2/index.html",
+    "href": "workex/job_2/index.html",
+    "title": "Job Title, Company",
+    "section": "",
+    "text": "Job Title, Company\n\nBullet one\nBullet two\nBullet three"
+  },
+  {
+    "objectID": "workex/index.html",
+    "href": "workex/index.html",
+    "title": "Work Experience",
+    "section": "",
+    "text": "Job Title, Company\n\n\nMon YYYY – Present · Location. One-line summary of the role.\n\n\n\n\n\n\n\n\n\n\n\n\nJob Title, Company\n\n\nMon YYYY – Present · Location. One-line summary of the role.\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Work Ex"
+    ]
+  },
+  {
+    "objectID": "research/index.html",
+    "href": "research/index.html",
+    "title": "Research",
+    "section": "",
+    "text": "Deep Learning for Medical Image Analysis\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Research"
+    ]
+  },
+  {
+    "objectID": "projects/project_2/index.html",
+    "href": "projects/project_2/index.html",
+    "title": "Customer Segmentation Analysis",
+    "section": "",
+    "text": "Customer Segmentation Analysis\n\nAnalyzed 500K+ customer records to identify distinct segments using K-means, DBSCAN, and hierarchical clustering.\nDeveloped interactive dashboards using Plotly and Tableau to visualize customer behavior patterns.\nImplemented RFM (Recency, Frequency, Monetary) analysis to score and rank customers for targeted campaigns.\nIncreased marketing ROI by 40% through personalized messaging based on segment characteristics."
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Customer Segmentation Analysis\n\n\nA data-driven approach to identify customer segments and personalize marketing strategies using clustering and classification techniques.\n\n\n\n\n\n\n\n\n\n\n\n\nNatural Language Processing Pipeline\n\n\nA comprehensive NLP project for text classification and sentiment analysis using deep learning techniques.\n\n\n\n\n\n\n\n\n\n\n\n\nTime Series Forecasting Analysis\n\n\nA comprehensive analysis using machine learning models to forecast sales trends and predict future demand patterns.\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Projects"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "John Doe",
+    "section": "",
+    "text": "LinkedIn\n  \n  \n    \n     Github\n  \n  \n    \n     Email\n  \n  \n     🆔 ORCID\n  \n\n  \n  \nHello, I am John.\nA passionate data scientist and researcher with expertise in machine learning, data analysis, and software development. I combine technical skills with domain knowledge to solve complex problems and deliver impactful solutions. My work spans across various domains including statistical modeling, deep learning, and data visualization.\n\n\n\nData Scientist, Tech Company Inc — Location (Jan 2021 – Present)\n\nDeveloped machine learning models to improve business outcomes, increasing revenue by 25%.\nBuilt automated data pipelines using Python and SQL to process and analyze large-scale datasets.\nCollaborated with cross-functional teams to deliver data-driven insights and recommendations.\nImplemented A/B testing frameworks to evaluate product features and optimize user experience.\nLed the deployment of predictive models in production environments using cloud infrastructure.\n\nResearch Assistant, University Research Lab — Location (Sep 2019 – Dec 2020)\n\nConducted research in machine learning and statistical methods, resulting in 2 published papers.\nDeveloped novel algorithms for data analysis and visualization.\nCollaborated with faculty and students on interdisciplinary research projects.\nPresented findings at academic conferences and seminars.\nMentored undergraduate students in research methodologies and programming."
+  },
+  {
+    "objectID": "index.html#work-experience",
+    "href": "index.html#work-experience",
+    "title": "John Doe",
+    "section": "",
+    "text": "Data Scientist, Tech Company Inc — Location (Jan 2021 – Present)\n\nDeveloped machine learning models to improve business outcomes, increasing revenue by 25%.\nBuilt automated data pipelines using Python and SQL to process and analyze large-scale datasets.\nCollaborated with cross-functional teams to deliver data-driven insights and recommendations.\nImplemented A/B testing frameworks to evaluate product features and optimize user experience.\nLed the deployment of predictive models in production environments using cloud infrastructure.\n\nResearch Assistant, University Research Lab — Location (Sep 2019 – Dec 2020)\n\nConducted research in machine learning and statistical methods, resulting in 2 published papers.\nDeveloped novel algorithms for data analysis and visualization.\nCollaborated with faculty and students on interdisciplinary research projects.\nPresented findings at academic conferences and seminars.\nMentored undergraduate students in research methodologies and programming."
+  },
+  {
+    "objectID": "projects/project_1/index.html",
+    "href": "projects/project_1/index.html",
+    "title": "Time Series Forecasting Analysis",
+    "section": "",
+    "text": "Time Series Forecasting Analysis\n\nDeveloped predictive models using ARIMA, LSTM, and Prophet to forecast time series data with 95% accuracy.\nProcessed and cleaned large-scale datasets containing millions of records using pandas and NumPy.\nImplemented feature engineering techniques to capture seasonal patterns and trends in the data.\nDeployed models in production environment, reducing forecasting error by 30% compared to baseline methods."
+  },
+  {
+    "objectID": "projects/project_3/index.html",
+    "href": "projects/project_3/index.html",
+    "title": "Natural Language Processing Pipeline",
+    "section": "",
+    "text": "Natural Language Processing Pipeline\n\nBuilt end-to-end NLP pipeline for text classification using BERT, RoBERTa, and DistilBERT models.\nPreprocessed and cleaned 100K+ text documents using spaCy and NLTK for tokenization and entity recognition.\nImplemented attention mechanisms and transfer learning to achieve 88% accuracy on multi-class classification tasks.\nDeployed the model as a REST API using FastAPI, handling 1000+ requests per second in production."
+  },
+  {
+    "objectID": "research/research_proj_1/index.html",
+    "href": "research/research_proj_1/index.html",
+    "title": "Deep Learning for Medical Image Analysis",
+    "section": "",
+    "text": "🔗 View Publication\n\n\nProject Summary\n\nDeep Learning for Medical Image Analysis\n\nDeveloped deep learning models for automated detection and classification of diseases in medical images using CNNs and transfer learning.\nImplemented data augmentation techniques and preprocessing pipelines to handle imbalanced medical image datasets.\nAchieved 94% accuracy on disease classification tasks using ensemble methods combining ResNet, VGG, and Inception architectures.\nCollaborated with medical professionals to validate model predictions and ensure clinical relevance of the findings."
+  },
+  {
+    "objectID": "workex/job_1/index.html",
+    "href": "workex/job_1/index.html",
+    "title": "Job Title, Company",
+    "section": "",
+    "text": "Job Title, Company\n\nBullet one\nBullet two\nBullet three"
+  }
+]

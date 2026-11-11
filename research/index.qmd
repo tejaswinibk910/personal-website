@@ -1,0 +1,22 @@
+---
+title: "Research"
+description: |
+  This page details my research in the Data/Machine Learning space.
+listing:
+  - id: ehr
+    max-description-length: 500
+    image-height: 150px
+    fields: [image, title]
+    contents:
+      - research_proj_1
+    type: grid
+    grid-item-border: false
+---
+
+::: {#ehr}
+:::
+
+
+
+
+

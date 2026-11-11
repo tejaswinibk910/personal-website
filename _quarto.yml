@@ -1,0 +1,111 @@
+# =============================================================================
+# QUARTO WEBSITE CONFIGURATION
+# =============================================================================
+# This is the main configuration file for your Quarto website.
+# It controls the overall structure, navigation, styling, and behavior.
+#
+# DOCUMENTATION: https://quarto.org/docs/websites/
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# PROJECT SETTINGS
+# -----------------------------------------------------------------------------
+# Defines the type of Quarto project and build configuration
+
+project:
+  type: website              # Project type (website, book, manuscript, etc.)
+  output-dir: docs           # Output directory for rendered HTML files
+                             # 'docs' is used for GitHub Pages compatibility
+
+
+# -----------------------------------------------------------------------------
+# WEBSITE STRUCTURE AND NAVIGATION
+# -----------------------------------------------------------------------------
+# Controls the overall website layout, navigation, and common elements
+
+website:
+  page-navigation: false     # Enable previous/next page navigation links
+                             # Set to false to disable
+
+  title: "Home"              # Main site title (appears in browser tab)
+                             # Change this to your name or site name
+
+  # ---------------------------------------------------------------------------
+  # FOOTER CONFIGURATION
+  # ---------------------------------------------------------------------------
+  # Customize the footer that appears at the bottom of every page
+
+  page-footer:
+    left: "&copy; Copyright 2025, John Doe"     # Left side text
+
+    right: "Built with Quarto"                  # Right side text
+
+  # ---------------------------------------------------------------------------
+  # SIDEBAR NAVIGATION CONFIGURATION
+  # ---------------------------------------------------------------------------
+  # Controls the appearance and behavior of the left sidebar menu
+  # The sidebar is the main navigation element for your site
+
+  sidebar:
+    pinned: true             # Sidebar stays open on desktop (true/false)
+                             # Set to false for a collapsible sidebar
+
+    align: center            # Alignment of sidebar content (left/center/right)
+
+    style: "docked"          # Sidebar style: "docked" (attached) or "floating"
+                             # "docked" = sidebar is part of the layout
+                             # "floating" = sidebar overlays content
+
+    collapse-level: 1        # Auto-collapse sections at this heading level
+                             # 1 = collapse all sections by default
+                             # 2 = keep top level expanded
+                             # 999 = never collapse
+
+    # -------------------------------------------------------------------------
+    # NAVIGATION MENU ITEMS
+    # -------------------------------------------------------------------------
+    # Define the pages and sections that appear in the sidebar
+    # Add, remove, or reorder items to customize your navigation
+
+    contents:
+
+      - text: "Projects"              # Display text for this nav item
+        href: projects/index.qmd      # Link to the projects listing page
+                                      # Use relative paths from project root
+
+      - text: "Research"              # Research section
+        href: research/index.qmd      # Link to research listing page
+
+      - text: "Work Ex"
+        href: workex/index.qmd
+
+      # EXAMPLES: Uncomment and customize to add more sections:
+      #
+      # - text: "About"                # About page
+      #   href: about.qmd
+      #
+      # - text: "Talks"                # Talks/presentations
+      #   href: talks/index.qmd
+      #
+      # - text: "Publications"         # Publications list
+      #   href: publications.qmd
+
+# -----------------------------------------------------------------------------
+# OUTPUT FORMAT SETTINGS
+# -----------------------------------------------------------------------------
+# Controls how HTML pages are rendered and styled
+
+format:
+  html:
+    max-width: 1900px
+    theme: cosmo             # Quarto theme name
+                             # Built-in themes: cosmo, flatly, darkly, lumen, etc. See: https://quarto.org/docs/output-formats/html-themes.html
+
+    css: styles.css          # Custom CSS file for additional styling
+                             # Customize colors, fonts, and layout in styles.css
+                             # Remove this line if not using custom CSS
+
+    toc: false               # Set to false to disable globally
+                             # Can be overridden in individual page frontmatter
+
+

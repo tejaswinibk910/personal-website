@@ -1,0 +1,23 @@
+[
+  {
+    "listing": "/workex/index.html",
+    "items": [
+      "/workex/job_1/index.html",
+      "/workex/job_2/index.html"
+    ]
+  },
+  {
+    "listing": "/research/index.html",
+    "items": [
+      "/research/research_proj_1/index.html"
+    ]
+  },
+  {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/project_2/index.html",
+      "/projects/project_3/index.html",
+      "/projects/project_1/index.html"
+    ]
+  }
+]
