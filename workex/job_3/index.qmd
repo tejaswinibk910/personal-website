@@ -1,0 +1,11 @@
+---
+title: "Machine Learning Intern, EagleHawk Inc"
+description: "Jan 20026 – Present · Buffalo One-line summary of the role."
+categories: []
+image: "company.svg"
+---
+
+- **Job Title**, *Company*
+  - Bullet one
+  - Bullet two
+  - Bullet three

@@ -10,6 +10,7 @@ listing:
     contents:
       - job_1
       - job_2
+      - job_3
     type: grid
     grid-item-border: false
 ---

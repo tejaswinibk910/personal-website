@@ -1,6 +1,6 @@
 ---
-title: "John Doe"
-image: profile.svg
+title: "Tejaswini BK"
+image: tbalamur.jpeg
 about:
   id: hero-heading
   template: trestles
@@ -8,19 +8,19 @@ about:
   links:
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/johndoe/
+      href: https://www.linkedin.com/in/tejaswini-bk-1537b9279/
     - icon: github
       text: Github
-      href: https://github.com/johndoe
+      href: https://github.com/tejaswinibk0910
     - icon: envelope
       text: Email
-      href: johndoe@email.com
+      href: tbalamur@ur.rochester.edu
     - text: 🆔 ORCID
       href: https://orcid.org/0000-0000-0000-0000
 ---
 
 ::: {#hero-heading}
-Hello, I am *John*.
+Hello, I am *Tejaswini*.
 
 A passionate data scientist and researcher with expertise in machine learning, data analysis, and software development. I combine technical skills with domain knowledge to solve complex problems and deliver impactful solutions. My work spans across various domains including statistical modeling, deep learning, and data visualization.
 

@@ -1,20 +1,17 @@
 [
   {
-    "objectID": "workex/job_2/index.html",
-    "href": "workex/job_2/index.html",
-    "title": "Job Title, Company",
+    "objectID": "workex/job_3/index.html",
+    "href": "workex/job_3/index.html",
+    "title": "Machine Learning Intern, EagleHawk Inc",
     "section": "",
     "text": "Job Title, Company\n\nBullet one\nBullet two\nBullet three"
   },
   {
-    "objectID": "workex/index.html",
-    "href": "workex/index.html",
-    "title": "Work Experience",
+    "objectID": "workex/job_1/index.html",
+    "href": "workex/job_1/index.html",
+    "title": "Job Title, Company",
     "section": "",
-    "text": "Job Title, Company\n\n\nMon YYYY – Present · Location. One-line summary of the role.\n\n\n\n\n\n\n\n\n\n\n\n\nJob Title, Company\n\n\nMon YYYY – Present · Location. One-line summary of the role.\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Work Ex"
-    ]
+    "text": "Job Title, Company\n\nBullet one\nBullet two\nBullet three"
   },
   {
     "objectID": "research/index.html",
@@ -46,14 +43,14 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "John Doe",
+    "title": "Tejaswini BK",
     "section": "",
-    "text": "LinkedIn\n  \n  \n    \n     Github\n  \n  \n    \n     Email\n  \n  \n     🆔 ORCID\n  \n\n  \n  \nHello, I am John.\nA passionate data scientist and researcher with expertise in machine learning, data analysis, and software development. I combine technical skills with domain knowledge to solve complex problems and deliver impactful solutions. My work spans across various domains including statistical modeling, deep learning, and data visualization.\n\n\n\nData Scientist, Tech Company Inc — Location (Jan 2021 – Present)\n\nDeveloped machine learning models to improve business outcomes, increasing revenue by 25%.\nBuilt automated data pipelines using Python and SQL to process and analyze large-scale datasets.\nCollaborated with cross-functional teams to deliver data-driven insights and recommendations.\nImplemented A/B testing frameworks to evaluate product features and optimize user experience.\nLed the deployment of predictive models in production environments using cloud infrastructure.\n\nResearch Assistant, University Research Lab — Location (Sep 2019 – Dec 2020)\n\nConducted research in machine learning and statistical methods, resulting in 2 published papers.\nDeveloped novel algorithms for data analysis and visualization.\nCollaborated with faculty and students on interdisciplinary research projects.\nPresented findings at academic conferences and seminars.\nMentored undergraduate students in research methodologies and programming."
+    "text": "LinkedIn\n  \n  \n    \n     Github\n  \n  \n    \n     Email\n  \n  \n     🆔 ORCID\n  \n\n  \n  \nHello, I am Tejaswini.\nA passionate data scientist and researcher with expertise in machine learning, data analysis, and software development. I combine technical skills with domain knowledge to solve complex problems and deliver impactful solutions. My work spans across various domains including statistical modeling, deep learning, and data visualization.\n\n\n\nData Scientist, Tech Company Inc — Location (Jan 2021 – Present)\n\nDeveloped machine learning models to improve business outcomes, increasing revenue by 25%.\nBuilt automated data pipelines using Python and SQL to process and analyze large-scale datasets.\nCollaborated with cross-functional teams to deliver data-driven insights and recommendations.\nImplemented A/B testing frameworks to evaluate product features and optimize user experience.\nLed the deployment of predictive models in production environments using cloud infrastructure.\n\nResearch Assistant, University Research Lab — Location (Sep 2019 – Dec 2020)\n\nConducted research in machine learning and statistical methods, resulting in 2 published papers.\nDeveloped novel algorithms for data analysis and visualization.\nCollaborated with faculty and students on interdisciplinary research projects.\nPresented findings at academic conferences and seminars.\nMentored undergraduate students in research methodologies and programming."
   },
   {
     "objectID": "index.html#work-experience",
     "href": "index.html#work-experience",
-    "title": "John Doe",
+    "title": "Tejaswini BK",
     "section": "",
     "text": "Data Scientist, Tech Company Inc — Location (Jan 2021 – Present)\n\nDeveloped machine learning models to improve business outcomes, increasing revenue by 25%.\nBuilt automated data pipelines using Python and SQL to process and analyze large-scale datasets.\nCollaborated with cross-functional teams to deliver data-driven insights and recommendations.\nImplemented A/B testing frameworks to evaluate product features and optimize user experience.\nLed the deployment of predictive models in production environments using cloud infrastructure.\n\nResearch Assistant, University Research Lab — Location (Sep 2019 – Dec 2020)\n\nConducted research in machine learning and statistical methods, resulting in 2 published papers.\nDeveloped novel algorithms for data analysis and visualization.\nCollaborated with faculty and students on interdisciplinary research projects.\nPresented findings at academic conferences and seminars.\nMentored undergraduate students in research methodologies and programming."
   },
@@ -79,8 +76,18 @@
     "text": "🔗 View Publication\n\n\nProject Summary\n\nDeep Learning for Medical Image Analysis\n\nDeveloped deep learning models for automated detection and classification of diseases in medical images using CNNs and transfer learning.\nImplemented data augmentation techniques and preprocessing pipelines to handle imbalanced medical image datasets.\nAchieved 94% accuracy on disease classification tasks using ensemble methods combining ResNet, VGG, and Inception architectures.\nCollaborated with medical professionals to validate model predictions and ensure clinical relevance of the findings."
   },
   {
-    "objectID": "workex/job_1/index.html",
-    "href": "workex/job_1/index.html",
+    "objectID": "workex/index.html",
+    "href": "workex/index.html",
+    "title": "Work Experience",
+    "section": "",
+    "text": "Job Title, Company\n\n\nMon YYYY – Present · Location. One-line summary of the role.\n\n\n\n\n\n\n\n\n\n\n\n\nJob Title, Company\n\n\nMon YYYY – Present · Location. One-line summary of the role.\n\n\n\n\n\n\n\n\n\n\n\n\nMachine Learning Intern, EagleHawk Inc\n\n\nJan 20026 – Present · Buffalo One-line summary of the role.\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Work Ex"
+    ]
+  },
+  {
+    "objectID": "workex/job_2/index.html",
+    "href": "workex/job_2/index.html",
     "title": "Job Title, Company",
     "section": "",
     "text": "Job Title, Company\n\nBullet one\nBullet two\nBullet three"

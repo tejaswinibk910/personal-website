@@ -36,7 +36,7 @@ website:
   # Customize the footer that appears at the bottom of every page
 
   page-footer:
-    left: "&copy; Copyright 2025, John Doe"     # Left side text
+    left: "&copy; Copyright 2026, Tejaswini BK"     # Left side text
 
     right: "Built with Quarto"                  # Right side text
 
@@ -78,6 +78,10 @@ website:
 
       - text: "Work Ex"
         href: workex/index.qmd
+        
+      - text: "Skills"
+        href: skills/index.qmd
+        
 
       # EXAMPLES: Uncomment and customize to add more sections:
       #
